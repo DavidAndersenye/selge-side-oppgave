@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospekter - Eiendommelig boligformidling A/S</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: purple; /* Lilla bakgrunn for navigasjonsmenyen */
+            color: white;
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            margin: 0 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .bilder {
+            display: block;
+            margin: 0 auto; /* Sentrer bildene horisontalt */
+        }
+
+        table {
+            margin: 20px auto; /* Sentrer tabellen horisontalt */
+        }
+
+        table, td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="om_oss.html">Om oss</a></li>
+            <li><a href="prospekt.html">Prospekter</a></li>
+            <li><a href="kontakt.html">Kontakt oss</a></li>
+            <li><a href="spørreskjema.html">Spørreskjema</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>Prospekter</h1>
+    </header>
+
+    <table border="1">
+        <tr>
+            <td>
+                <img src="hus1.jpg" class="bilder" alt="Bolig 1">
+                <p>Megler: Tan Nguyen</p>
+                <p>Prisantydning: 1 000 000 kr</p>
+            </td>
+            <td>
+                <img src="hus2.jpg" class="bilder" alt="Bolig 2">
+                <p>Megler: Mikkel Mikkelman</p>
+                <p>Prisantydning: 2 000 000 kr</p>
+            </td>
+            <td>
+                <img src="hus3.jpg" class="bilder" alt="Bolig 3">
+                <p>Megler: Sondre Hansen</p>
+                <p>Prisantydning: 3 000 000 kr</p>
+            </td>
+            <td>
+                <img src="hus4.jpg" class="bilder" alt="Bolig 4">
+                <p>Megler: Ola Meyer</p>
+                <p>Prisantydning: 4 000 000 kr</p>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <!-- Foterinnhold går her -->
+    </footer>
+</body>
+</html>
